@@ -24,12 +24,7 @@ Activity 3
 
 // Arrow function to cast a vote
 const vote = (option) => {
-  if (poll.votes[option] !== undefined) {
-    poll.votes[option]++;
-    console.log(`Voted for ${option}!`);
-  } else {
-    console.log(`${option} is not a valid option.`);
-  }
+// your code here
 };
 
 // Given: Function to print current results
